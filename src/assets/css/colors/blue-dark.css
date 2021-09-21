@@ -32,7 +32,7 @@ File: scss
   .topbar .top-navbar .navbar-nav > .nav-item > span {
     color: #ffffff; }
   .topbar .navbar-header {
-    background: #272c33; }
+    background: #000000; }
 
 .logo-center .topbar .navbar-header {
   background: transparent;
@@ -108,7 +108,7 @@ a.link:hover, a.link:focus {
 *******************/
 .card-no-border .left-sidebar,
 .card-no-border .sidebar-nav {
-  background: #242a33; }
+  background: #000000; }
 
 .mini-sidebar .sidebar-nav {
   background: transparent; }
