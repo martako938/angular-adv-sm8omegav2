@@ -14,7 +14,13 @@ export class SidebarComponent implements OnInit {
 
   constructor( private sidebarService: SidebarService) {
     this.menuItems =sidebarService.menu;
-    console.log(this.menuItems)
+    //console.log(this.menuItems)
+    /*Muestra en consola
+    submenu: Array(4)
+    0: {titulo: 'Main', url: '/'}
+    1: {titulo: 'Gráficas', url: 'grafica1'}
+    2: {titulo: 'ProgressBar', url: 'progress'}
+    3: {titulo: 'Promesas', url: 'promesas */
    }
 
   ngOnInit(): void {
